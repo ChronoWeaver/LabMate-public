@@ -1,15 +1,16 @@
 # WetLab Pro Public Pages
 
-This folder contains ready-to-publish public pages for App Store Connect URLs:
+This repository hosts public pages for WetLab Pro (LabMate), including links used in App Store Connect.
 
-- `support.md` -> Support URL
-- `marketing.md` -> Marketing URL
-- `privacy.md` -> Privacy Policy URL (public copy)
+## Pages
 
-Recommended publishing target:
-- A separate **public** GitHub repository (for example `wetlab-pro-public`)
+- Home: `index.html`
+- Support: `support.html`
+- Marketing: `marketing.html`
+- Privacy Policy: `privacy.html`
 
-Then use:
-- `https://<owner>.github.io/<repo>/support.html`
-- `https://<owner>.github.io/<repo>/marketing.html`
-- `https://<owner>.github.io/<repo>/privacy.html`
+## Suggested App Store Connect URLs
+
+- Support URL: `https://chronoweaver.github.io/LabMate-public/support.html`
+- Marketing URL: `https://chronoweaver.github.io/LabMate-public/marketing.html`
+- Privacy Policy URL: `https://chronoweaver.github.io/LabMate-public/privacy.html`
