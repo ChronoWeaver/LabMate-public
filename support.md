@@ -7,7 +7,7 @@ WetLab Pro is a utility app for wet-lab workflows.
 ## Contact
 
 - Email: guozhongfang2020@icloud.com
-- GitHub Issues: https://github.com/ChronoWeaver/LabMate/issues
+- GitHub Issues: https://github.com/ChronoWeaver/LabMate-public/issues
 
 ## Common Topics
 

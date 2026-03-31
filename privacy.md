@@ -40,4 +40,4 @@ WetLab Pro is designed as a local-first app. Your schedules, notes, and images a
 ## Contact
 
 Email: guozhongfang2020@icloud.com  
-Project issues: https://github.com/ChronoWeaver/LabMate/issues
+Project issues: https://github.com/ChronoWeaver/LabMate-public/issues
