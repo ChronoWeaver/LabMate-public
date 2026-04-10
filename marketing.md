@@ -1,19 +1,46 @@
-# WetLab Pro
+# 湿实验助手 / WetLab Pro
 
-WetLab Pro helps wet-lab users complete common calculations faster, check recipes, and use practical tools with less repetitive manual work.
+Last updated: 2026-04-09
 
-## Core Capabilities
+湿实验助手（WetLab Pro）是一款面向湿实验场景的本地优先效率工具，帮助你把实验模板、实验安排、补充记录和常用计算集中到同一处，减少分散记录、重复查表和手算。
 
-- Molarity calculator
-- Solution dilution calculator
-- Molecular weight calculator and formula parser
-- RPM / RCF centrifuge conversion
-- Recipe lookup and favorites
-- Custom recipe creation and scaling by target volume
-- Multi-timer
-- Blind counter
-- History tracking
+## 产品简介
 
-## Positioning
+湿实验助手适用于生物、分子、生化及其他湿实验相关场景，聚焦轻量、直接、实用的实验辅助工作流。你可以用它管理实验模板、安排实验计划、记录补充信息，并快速完成常见实验计算与计时任务。
 
-WetLab Pro focuses on lightweight, direct, and practical lab-assistant workflows.
+## 核心能力
+
+- 实验模板库：支持内建模板与自建模板，支持分类管理、快速复制、流程型和溶液型编辑
+- 实验安排与提醒：支持实验日程安排、重复规则、快速提醒与通知
+- 补充记录：为每次实验安排添加文字和图片，便于追踪实验过程
+- 体积与配方辅助：支持按目标体积自动缩放材料用量
+- 常用实验计算：支持摩尔浓度、溶液稀释、分子量与化学式、RPM/RCF 换算
+- 实用工具：支持多任务计时器、盲点计数器和历史记录
+- 数据连续性：支持安排与记录导出/恢复，可选开启 iCloud 同步
+
+## 产品特点
+
+- 本地优先：默认情况下，实验安排、补充记录和图片保存在你的设备上
+- 专注湿实验：围绕实验准备、执行和复盘场景设计
+- 减少重复劳动：把模板、记录、计算和提醒整合到一个 App 中
+- 可按需同步：iCloud 同步为可选功能，由用户手动开启或关闭
+
+## 适用人群
+
+- 需要整理实验流程和模板的实验人员
+- 需要记录实验补充信息和图片的用户
+- 需要频繁进行配液、浓度、离心换算等计算的用户
+- 希望把提醒、记录和小工具集中管理的湿实验场景用户
+
+## 联系方式
+
+- 支持邮箱：guozhongfang2020@icloud.com
+- 问题反馈：https://github.com/ChronoWeaver/LabMate-public/issues
+
+## 主办者信息
+
+发布正式网站前，建议在此补充与你备案主体一致的信息：
+
+- 主办者名称
+- 联系地址
+- 备案号（取得后补充）

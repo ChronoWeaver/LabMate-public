@@ -1,26 +1,46 @@
-# WetLab Pro Support
+# 湿实验助手 / WetLab Pro 支持
 
-Last updated: 2026-03-31
+Last updated: 2026-04-09
 
-WetLab Pro is a utility app for wet-lab workflows.
+湿实验助手（WetLab Pro）是一款面向湿实验场景的本地优先效率工具，用于管理实验模板、实验安排、补充记录，以及完成常见实验计算与实用工具操作。
 
-## Contact
+## 联系方式
 
-- Email: guozhongfang2020@icloud.com
-- GitHub Issues: https://github.com/ChronoWeaver/LabMate-public/issues
+- 支持邮箱：guozhongfang2020@icloud.com
+- 问题反馈：https://github.com/ChronoWeaver/LabMate-public/issues
 
-## Common Topics
+## 常见支持主题
 
-1. Build and compatibility issues
-2. Calculation result questions
-3. Recipe import/export and backup/restore behavior
-4. Reminder and notification behavior
-5. iCloud sync behavior
+- 安装、启动与兼容性问题
+- 实验模板创建、编辑、分类与复制
+- 实验安排、提醒与通知行为
+- 补充记录中的文字与图片管理
+- 数据导出、恢复与迁移
+- iCloud 同步开启、关闭和同步行为
+- 配液、浓度、分子量、RPM/RCF 等计算结果问题
+- 多任务计时器、盲点计数器和历史记录问题
 
-## Notes for Users
+## 反馈问题时建议提供的信息
 
-- If you report an issue, include:
-  - iOS version
-  - App version
-  - Steps to reproduce
-  - Expected vs actual behavior
+为了更快定位问题，建议在反馈时附上以下信息：
+
+- 设备型号
+- iOS 版本
+- App 版本
+- 问题出现前的操作步骤
+- 你的预期结果
+- 实际结果
+- 如问题与界面显示有关，可附截图
+
+## 使用说明
+
+- 本应用无需登录账号即可使用主要功能
+- 通知权限仅用于实验提醒
+- 相机与相册权限仅用于实验补充记录图片相关功能
+- iCloud 同步为可选功能，由用户主动开启
+
+## 相关页面
+
+- 产品介绍：`marketing.html`
+- 隐私政策：`privacy.html`
+- 用户协议：`terms.html`
