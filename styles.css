@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.7;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+a {
+  color: #2563eb;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.nav {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.lang-switch {
+  display: inline-flex;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.lang-button {
+  border: 0;
+  background: transparent;
+  color: #475569;
+  padding: 8px 14px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.lang-button.active {
+  background: #2563eb;
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(180deg, #ffffff 0%, #eef6ff 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 36px;
+  margin-top: 28px;
+}
+
+h1,
+h2,
+h3 {
+  color: #111827;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 28px;
+  margin-top: 24px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.footer-note {
+  display: block;
+  margin-top: 10px;
+  color: #6b7280;
+}
+
+.filing-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 18px;
+  margin-top: 10px;
+}
+
+.filing-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.filing-links a:hover {
+  color: #2563eb;
+}
+
+.filing-links img {
+  display: block;
+  width: 18px;
+  height: 20px;
+}
+
+.lang-en {
+  display: none;
+}
+
+html[data-lang="en"] .lang-zh {
+  display: none;
+}
+
+html[data-lang="en"] .lang-en {
+  display: revert;
+}
+
+@media (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .hero,
+  .card {
+    padding: 24px;
+  }
+}

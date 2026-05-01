@@ -1,49 +1,125 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WetLab Pro Overview</title>
-    <link rel="stylesheet" href="site.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container nav">
-        <a href="index.html">Home</a>
-        <a href="support.html">Support</a>
-        <a href="marketing.html">Marketing</a>
-        <a href="privacy.html">Privacy</a>
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>湿实验助手 | WetLab Pro</title>
+  <meta
+    name="description"
+    content="湿实验助手（WetLab Pro）是一款面向湿实验场景的本地优先效率工具，帮助你集中管理实验模板、实验安排、补充记录和常用计算。"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="lang-toggle.js" defer></script>
+</head>
+<body
+  data-title-zh="湿实验助手 | WetLab Pro"
+  data-title-en="WetLab Pro"
+  data-description-zh="湿实验助手（WetLab Pro）是一款面向湿实验场景的本地优先效率工具，帮助你集中管理实验模板、实验安排、补充记录和常用计算。"
+  data-description-en="WetLab Pro is a local-first productivity app for wet-lab workflows, bringing templates, schedules, logs, and practical lab tools into one place."
+>
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">湿实验助手 / WetLab Pro</a>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-button active" type="button" data-lang-button="zh" aria-pressed="true">中文</button>
+          <button class="lang-button" type="button" data-lang-button="en" aria-pressed="false">English</button>
+        </div>
+        <div class="nav-links">
+          <a href="privacy.html"><span class="lang-zh">隐私政策</span><span class="lang-en">Privacy</span></a>
+          <a href="support.html"><span class="lang-zh">支持</span><span class="lang-en">Support</span></a>
+          <a href="terms.html"><span class="lang-zh">用户协议</span><span class="lang-en">Terms</span></a>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="container">
-      <section class="card">
-        <span class="badge">Marketing · 产品介绍</span>
-        <h1>WetLab Pro</h1>
-        <p>
-          WetLab Pro helps wet-lab users complete common calculations faster, check recipes, and use practical tools with less repetitive manual work.
-        </p>
+  <main class="container">
+    <section class="hero">
+      <div class="lang-zh">
+        <h1>把实验模板、安排、记录和常用计算集中到一个 App</h1>
+        <p>湿实验助手（WetLab Pro）是一款面向湿实验场景的本地优先效率工具，适合生物、分子、生化及其他湿实验相关场景。</p>
+        <p>它帮助你减少重复查表、手算和分散记录，把实验准备、执行和复盘流程整理得更清晰。</p>
+      </div>
+      <div class="lang-en">
+        <h1>Bring templates, schedules, logs, and lab tools into one focused app</h1>
+        <p>WetLab Pro is a local-first productivity app built for wet-lab workflows across biology, molecular, biochemistry, and related lab scenarios.</p>
+        <p>It helps reduce repetitive table lookup, manual calculation, and fragmented note taking so experiment preparation, execution, and review stay clearer.</p>
+      </div>
+    </section>
 
-        <h2>Core capabilities</h2>
+    <section class="card">
+      <div class="lang-zh">
+        <h2>核心能力</h2>
         <ul>
-          <li>Molarity calculator</li>
-          <li>Solution dilution calculator</li>
-          <li>Molecular weight calculator and formula parser</li>
-          <li>RPM / RCF centrifuge conversion</li>
-          <li>Recipe lookup, favorites, custom recipes, and scaling</li>
-          <li>Multi-timer and blind counter</li>
-          <li>History tracking</li>
+          <li>实验模板库：支持内建模板与自建模板，支持分类管理、快速复制、流程型和溶液型编辑</li>
+          <li>实验安排与提醒：支持实验日程安排、重复规则、快速提醒与通知</li>
+          <li>补充记录：支持为每次实验安排添加文字和图片</li>
+          <li>体积与配方辅助：支持按目标体积自动缩放材料用量</li>
+          <li>常用实验计算：支持摩尔浓度、溶液稀释、分子量与化学式、RPM/RCF 换算</li>
+          <li>实用工具：支持多任务计时器、盲点计数器和历史记录</li>
+          <li>数据能力：支持安排与记录导出/恢复，可选开启 iCloud 同步</li>
         </ul>
+      </div>
+      <div class="lang-en">
+        <h2>Core Capabilities</h2>
+        <ul>
+          <li>Experiment templates: built-in and custom templates, category management, quick duplication, workflow-style and solution-prep editing</li>
+          <li>Experiment schedules and reminders: planning, recurring rules, quick reminders, and notifications</li>
+          <li>Supplemental logs: attach text and images to each scheduled experiment</li>
+          <li>Volume-based scaling: scale material amounts by target volume</li>
+          <li>Lab calculators: molarity, dilution, molecular weight and formula parsing, RPM/RCF conversion</li>
+          <li>Utility tools: multi-timer, blind counter, and history</li>
+          <li>Data continuity: export and restore schedules and logs, with optional iCloud sync</li>
+        </ul>
+      </div>
+    </section>
 
-        <h2>产品定位</h2>
-        <p>
-          面向湿实验场景的轻量效率工具，强调“随手可用、减少重复操作”。
-        </p>
-      </section>
-    </main>
+    <section class="card">
+      <div class="lang-zh">
+        <h2>产品特点</h2>
+        <ul>
+          <li>本地优先：默认情况下，实验安排、补充记录和图片保存在你的设备上</li>
+          <li>专注湿实验：围绕实验准备、执行和复盘场景设计</li>
+          <li>减少重复劳动：把模板、记录、计算和提醒整合到一个 App 中</li>
+          <li>按需同步：iCloud 同步为可选功能，由用户手动开启或关闭</li>
+        </ul>
+      </div>
+      <div class="lang-en">
+        <h2>Product Traits</h2>
+        <ul>
+          <li>Local-first: schedules, supplemental logs, and images are stored on your device by default</li>
+          <li>Built for wet labs: designed around experiment preparation, execution, and review workflows</li>
+          <li>Less repetitive work: keeps templates, records, calculations, and reminders in one app</li>
+          <li>Sync when needed: iCloud sync is optional and user-controlled</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="lang-zh">
+        <h2>联系方式</h2>
+        <p>支持邮箱：guozhongfang2020@icloud.com</p>
+        <p>问题反馈：<a href="https://github.com/ChronoWeaver/LabMate-public/issues">GitHub Issues</a></p>
+      </div>
+      <div class="lang-en">
+        <h2>Contact</h2>
+        <p>Support email: guozhongfang2020@icloud.com</p>
+        <p>Issue tracker: <a href="https://github.com/ChronoWeaver/LabMate-public/issues">GitHub Issues</a></p>
+      </div>
+    </section>
 
     <footer>
-      <div class="container">Last updated: 2026-03-31</div>
+      <div class="lang-zh">湿实验助手 / WetLab Pro</div>
+      <div class="lang-en">WetLab Pro</div>
+      <div class="filing-links">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">沪ICP备2026015229号-1</a>
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=31010402336636" target="_blank" rel="noreferrer">
+          <img src="beian-icon.png" alt="" width="18" height="20" />
+          沪公网安备31010402336636号
+        </a>
+      </div>
     </footer>
-  </body>
+  </main>
+</body>
 </html>

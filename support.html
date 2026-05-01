@@ -1,49 +1,120 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WetLab Pro Support</title>
-    <link rel="stylesheet" href="site.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container nav">
-        <a href="index.html">Home</a>
-        <a href="support.html">Support</a>
-        <a href="marketing.html">Marketing</a>
-        <a href="privacy.html">Privacy</a>
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>支持 | 湿实验助手</title>
+  <meta name="description" content="湿实验助手（WetLab Pro）支持页面。" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="lang-toggle.js" defer></script>
+</head>
+<body
+  data-title-zh="支持 | 湿实验助手"
+  data-title-en="Support | WetLab Pro"
+  data-description-zh="湿实验助手（WetLab Pro）支持页面。"
+  data-description-en="Support page for WetLab Pro."
+>
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">湿实验助手 / WetLab Pro</a>
+      <div class="nav-right">
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-button active" type="button" data-lang-button="zh" aria-pressed="true">中文</button>
+          <button class="lang-button" type="button" data-lang-button="en" aria-pressed="false">English</button>
+        </div>
+        <div class="nav-links">
+          <a href="privacy.html"><span class="lang-zh">隐私政策</span><span class="lang-en">Privacy</span></a>
+          <a href="support.html"><span class="lang-zh">支持</span><span class="lang-en">Support</span></a>
+          <a href="terms.html"><span class="lang-zh">用户协议</span><span class="lang-en">Terms</span></a>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main class="container">
-      <section class="card">
-        <span class="badge">Support · 技术支持</span>
-        <h1>WetLab Pro Support</h1>
-
-        <p>Contact email: <a class="link" href="mailto:guozhongfang2020@icloud.com">guozhongfang2020@icloud.com</a></p>
-        <p>Issue tracker: <a class="link" href="https://github.com/ChronoWeaver/LabMate-public/issues">https://github.com/ChronoWeaver/LabMate-public/issues</a></p>
-
-        <h2>When reporting an issue</h2>
+  <main class="container">
+    <section class="card">
+      <div class="lang-zh">
+        <h1>支持页面</h1>
+        <p>湿实验助手（WetLab Pro）是一款面向湿实验场景的本地优先效率工具，用于管理实验模板、实验安排、补充记录，以及完成常见实验计算与实用工具操作。</p>
+        <h2>联系方式</h2>
+        <p>支持邮箱：guozhongfang2020@icloud.com</p>
+        <p>问题反馈：<a href="https://github.com/ChronoWeaver/LabMate-public/issues">GitHub Issues</a></p>
+        <h2>常见支持主题</h2>
         <ul>
-          <li>Device model and iOS version</li>
+          <li>安装、启动与兼容性问题</li>
+          <li>实验模板创建、编辑、分类与复制</li>
+          <li>实验安排、提醒与通知行为</li>
+          <li>补充记录中的文字与图片管理</li>
+          <li>数据导出、恢复与迁移</li>
+          <li>iCloud 同步开启、关闭和同步行为</li>
+          <li>配液、浓度、分子量、RPM/RCF 等计算结果问题</li>
+          <li>多任务计时器、盲点计数器和历史记录问题</li>
+        </ul>
+        <h2>反馈问题时建议提供的信息</h2>
+        <ul>
+          <li>设备型号</li>
+          <li>iOS 版本</li>
+          <li>App 版本</li>
+          <li>问题出现前的操作步骤</li>
+          <li>你的预期结果</li>
+          <li>实际结果</li>
+          <li>如问题与界面显示有关，可附截图</li>
+        </ul>
+        <h2>使用说明</h2>
+        <ul>
+          <li>本应用无需登录账号即可使用主要功能</li>
+          <li>通知权限仅用于实验提醒</li>
+          <li>相机与相册权限仅用于实验补充记录图片相关功能</li>
+          <li>iCloud 同步为可选功能，由用户主动开启</li>
+        </ul>
+      </div>
+      <div class="lang-en">
+        <h1>Support</h1>
+        <p>WetLab Pro is a local-first productivity app for wet-lab workflows. It helps manage experiment templates, schedules, supplemental logs, and practical lab utilities.</p>
+        <h2>Contact</h2>
+        <p>Support email: guozhongfang2020@icloud.com</p>
+        <p>Issue tracker: <a href="https://github.com/ChronoWeaver/LabMate-public/issues">GitHub Issues</a></p>
+        <h2>Common Topics</h2>
+        <ul>
+          <li>Installation, launch, and compatibility issues</li>
+          <li>Experiment template creation, editing, categories, and duplication</li>
+          <li>Experiment schedules, reminders, and notification behavior</li>
+          <li>Text and image handling in supplemental logs</li>
+          <li>Data export, restore, and migration</li>
+          <li>iCloud sync enable, disable, and sync behavior</li>
+          <li>Questions about dilution, molarity, molecular weight, and RPM/RCF calculations</li>
+          <li>Multi-timer, blind counter, and history issues</li>
+        </ul>
+        <h2>What To Include In A Report</h2>
+        <ul>
+          <li>Device model</li>
+          <li>iOS version</li>
           <li>App version</li>
           <li>Steps to reproduce</li>
-          <li>Expected behavior vs actual behavior</li>
+          <li>Expected result</li>
+          <li>Actual result</li>
+          <li>A screenshot when the issue is UI-related</li>
         </ul>
-
-        <h2>反馈问题时建议提供</h2>
+        <h2>Usage Notes</h2>
         <ul>
-          <li>设备型号与 iOS 版本</li>
-          <li>App 版本号</li>
-          <li>复现步骤</li>
-          <li>预期结果与实际结果</li>
+          <li>The app does not require account sign-in for core features</li>
+          <li>Notification permission is only used for reminders</li>
+          <li>Camera and Photos permissions are only used for supplemental log images</li>
+          <li>iCloud sync is optional and user-controlled</li>
         </ul>
-      </section>
-    </main>
-
+      </div>
+    </section>
     <footer>
-      <div class="container">Last updated: 2026-03-31</div>
+      <div class="lang-zh">湿实验助手 / WetLab Pro</div>
+      <div class="lang-en">WetLab Pro</div>
+      <div class="filing-links">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">沪ICP备2026015229号-1</a>
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=31010402336636" target="_blank" rel="noreferrer">
+          <img src="beian-icon.png" alt="" width="18" height="20" />
+          沪公网安备31010402336636号
+        </a>
+      </div>
     </footer>
-  </body>
+  </main>
+</body>
 </html>

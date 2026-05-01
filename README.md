@@ -32,7 +32,15 @@ Current mainland primary URLs:
 
 ## Local Sync Script
 
-Use the app repo script to sync these markdown files to your separate public repo.
+Use the app repo script to sync both source markdown and deployable static files to your separate public repo.
+
+The script copies:
+
+- `docs/public-site/*.md` -> public repo root
+- `docs/public-site/static/*.html` -> public repo root
+- `docs/public-site/static/styles.css`, `lang-toggle.js`, and `beian-icon.png` -> public repo root
+
+For GitHub Pages project URLs such as `https://chronoweaver.github.io/LabMate-public/`, the script rewrites root-relative static HTML links like `/privacy.html` and `/styles.css` to relative links. It also copies the homepage static HTML to `marketing.html` so the App Store Connect marketing URL stays available.
 
 Check differences only:
 
