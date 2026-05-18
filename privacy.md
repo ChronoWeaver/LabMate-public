@@ -1,6 +1,6 @@
 # 湿实验助手 / WetLab Pro 隐私政策
 
-Last updated: 2026-04-30
+Last updated: 2026-05-18
 
 欢迎使用湿实验助手（WetLab Pro）。本隐私政策用于说明我们如何处理与你使用本应用相关的数据。
 
@@ -80,12 +80,6 @@ Last updated: 2026-04-30
 
 ## 10. 联系方式
 
+- 个人信息处理者：郭中方
 - 邮箱：guozhongfang2020@icloud.com
 - 问题反馈：https://github.com/ChronoWeaver/LabMate-public/issues
-
-## 11. 主办者信息
-
-- 主办者名称：郭中方
-- 网站域名：wetlabpro.cn
-- 工信部备案号：沪ICP备2026015229号-1
-- 公安机关联网备案号：[沪公网安备31010402336636号](https://beian.mps.gov.cn/#/query/webSearch?code=31010402336636)
